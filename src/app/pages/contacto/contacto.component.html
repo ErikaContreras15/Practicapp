@@ -1,0 +1,12 @@
+<p>contacto works!</p>
+
+<form>
+    <label for="txtCedula">Cedula</label>
+    <input id="txtCedula" name="txtCedula" [(ngModel)]="persona.id"/><br>
+    <label for="txtCedula">Nombre</label>
+    <input id="txtNombre" name="txtNombre" [(ngModel)]="persona.name"/><br>
+    <button (click)="savePersona() ">Guardar </button>
+</form>
+
+<button (click)="goAcerca()">Acerca de </button>
+
